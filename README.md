@@ -10,15 +10,15 @@ There are three commands:
 
 Setup
 ---
-Install git? [y/N]
-Install zsh? [y/N]
-Install oh-my-zsh? [y/N]
-Setup oh-my-zsh?  [y/N]
+* Install git? [y/N]
+* Install zsh? [y/N]
+* Install oh-my-zsh? [y/N]
+* Setup oh-my-zsh?  [y/N]
 
 Project make
 ---
-Creates a folder for the project with a index.html
-Configures Virtual Hosts
-Restart apache
-Would you like to use git? [y/N]
-	Creates git repo that places any pushed file to the project folder
+* Creates a folder for the project with a index.html
+* Configures Virtual Hosts
+* Restart apache
+* Would you like to use git? [y/N]
+	* Creates git repo that places any pushed file to the project folder
