@@ -81,6 +81,9 @@ def setup_server():
 		zshrcfile = os.path.expanduser("~") + '/.zshrc'
 		file_search_replace(zshrcfile, 'ZSH_THEME="robbyrussell"', 'ZSH_THEME="agnoster"')
 
+	if prompt_bool("Install php?"):
+		subprocess.call(['yum install php -y'], shell=True)
+
 def project_make(name):
 	# name = 'facebook.com'
 	# create /var/www/facebook.com
