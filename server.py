@@ -116,7 +116,7 @@ def project_make(name):
 
 		print ''
 		print 'Please add the repo as a remote to your local repo';
-		print 'git remote add live ssh://user@' + name + '/var/repo/' + repo	
+		print 'git remote add live ssh://' + getpass.getuser() + '@' + name + '/var/repo/' + repo	
 		print ''	
 
 	cprint('Project was made', 'grey', 'on_green')
